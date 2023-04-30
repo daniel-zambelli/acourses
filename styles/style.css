@@ -165,3 +165,57 @@ body {
   padding: 0 16em;
   font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    height: 70vh;
+    background-image: none;
+  }
+
+  .container__imagem {
+    width: 50vw;
+  }
+
+  .container__caixa {
+    margin: 1em 1em;
+  }
+
+  .container__descricao {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1em;
+  }
+
+  .secundario {
+    margin: 0;
+    text-align: center;
+  }
+
+  .secundario__imagem {
+    width: 50vw;
+  }
+
+  .dispositivos__titulo {
+    font-size: 1.5em;
+  }
+
+  .dispositivos__lista {
+    display: block;
+  }
+
+  .rodape {
+    margin: 2em 0;
+  }
+
+  .rodape__lista {
+    display: block;
+    margin-top: 2em;
+  }
+
+  .rodape__texto {
+    display: block;
+    padding: 0;
+    margin: 1em;
+  }
+}
